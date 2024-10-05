@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgb(253, 254, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(12, 133, 133, 0.806);
+}
+
+header {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #333; /* Warna teks */
+}
+
+.about {
+    font-style: italic;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    color: #444; /* Warna teks */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+li:hover {
+    background-color: #e0f7fa; /* Warna latar belakang saat hover */
+}
+
+h3 {
+    margin: 5px 0;
+    color: #555; /* Warna teks */
+}
